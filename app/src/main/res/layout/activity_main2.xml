@@ -39,7 +39,7 @@
         android:lineSpacingExtra="4dp"
         android:text="MOODIFY"
         android:textAllCaps="false"
-        android:textColor="#160E2C"
+        android:textColor="#431b3f"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
