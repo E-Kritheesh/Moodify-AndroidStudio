@@ -1,6 +1,8 @@
 package com.example.moodify;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.content.Intent;
@@ -17,6 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
     Animation top_anim, bottom_anim;
     ImageView img1,img2;
     TextView t;
+    ConstraintLayout c;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +34,11 @@ public class MainActivity2 extends AppCompatActivity {
         img1=findViewById(R.id.imageView);
         img2=findViewById(R.id.imageView2);
         t=findViewById(R.id.textView);
+        c=findViewById(R.id.bg);
 
         img1.setAnimation(top_anim);
         img2.setAnimation(top_anim);
+        c.setAnimation(top_anim);
         t.setAnimation(bottom_anim);
 
         new Handler().postDelayed(new Runnable() {

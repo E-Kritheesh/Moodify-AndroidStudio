@@ -30,7 +30,7 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         ArrayList<StaticRvModel> item = new ArrayList<>();
-        item.add(new StaticRvModel(R.drawable.ic_baseline_photo_camera_24,"Camera"));
+        item.add(new StaticRvModel(R.drawable.photo_camera,"Camera"));
         item.add(new StaticRvModel(R.drawable.ic_baseline_subdirectory_arrow_right_24,"Recently \nPlayed"));
         item.add(new StaticRvModel(R.drawable.ic_baseline_thumb_up_24,"Liked Songs"));
         item.add(new StaticRvModel(R.drawable.ic_baseline_subject_24,"Playlist \nHistory"));
